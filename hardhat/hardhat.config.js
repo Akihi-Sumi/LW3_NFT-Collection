@@ -5,7 +5,7 @@ const ALCHEMY_HTTPS_URL = process.env.ALCHEMY_HTTPS_URL
 const PRIVATE_KEY = process.env.PRIVATE_KEY
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.9",
   networks: {
     goerli: {
       url: ALCHEMY_HTTPS_URL,
